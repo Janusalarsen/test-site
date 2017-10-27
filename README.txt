@@ -5,4 +5,4 @@ I am currently undergoing The Odin Project course, and part of that is creating 
 - css
 - and javascript
 
-At the moment of writing this I am in the progress of learning css, and haven't got to learning javascript yet. 
+At the moment of writing this I am in the progress of learning javascript, and started making a draft of my first web page. 
