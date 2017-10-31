@@ -11,11 +11,11 @@ body {
 /*  border: 2px solid #DBDBDB; */
   font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
   font-family: 'Open Sans', sans-serif;
-  z-index: 2;
 }
 header {
   position: absolute;
   width: 100%;
+  position: absolute;
 }
 .top-bar {
   max-width: 50%;
@@ -37,7 +37,7 @@ header {
   color: white;
   margin: 10px;
   padding: 14px;
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 20px black;
   text-decoration: none;
 }
 .top-menu a.menu:hover {
@@ -50,17 +50,19 @@ header {
   text-shadow: 0px 0px 10px black;
   color: white;
   margin-top: 20px;
+  position: absolute;
 }
 #banner {
   background-image: url("https://cdnb.artstation.com/p/assets/images/images/006/218/017/large/janus-larsen-macro-world-9.jpg?1496868424");
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 100%;
   height: 450px;
-  width: 100%;
+  width: auto;
   position: relative;
-  z-index: 1;
+  box-shadow: 0px 5px 10px black;
+
 }
 #banner .content h1 {
   border: 2px solid white;
@@ -92,18 +94,6 @@ h3 {
   margin: 0;
   padding: 20px 0;
   color: #212121;
-}
-.portfolio {
-  font-size: 20px;
-  background: #FF5722;
-  border: 1px solid #FF5722;
-  border-radius: 3px;
-  color: white;
-  display: inline-block;
-  margin: 0px;
-  padding: 5px 10px;
-  text-decoration: none;
-  box-shadow: 0px 0px 10px black;
 }
 #main {
   margin: 0 auto;
@@ -141,8 +131,7 @@ img {
 }
 
 .share a {
-
-  font-size: 20px;
+  font-size: 15px;
   background: #FF5722;
   border: 1px solid #FF5722;
   border-radius: 3px;
@@ -152,12 +141,7 @@ img {
   padding: 14px;
   text-decoration: none;
   box-shadow: 0px 0px 10px black;
-
 }
-
 .share a:hover {
-
-
-
   box-shadow: 0px 0px 2px black;
 }
