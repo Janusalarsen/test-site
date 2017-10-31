@@ -25,7 +25,6 @@ header {
 }
 .top-menu {
   font-size: 20px;
-
 }
 .menu {
   color: white;
@@ -40,9 +39,7 @@ header {
   padding: 14px;
   box-shadow: 0px 0px 10px black;
   text-decoration: none;
-
 }
-
 .top-menu a.menu:hover {
   box-shadow: 0px 0px 2px black;
   color: white;
@@ -62,7 +59,7 @@ header {
   background-size: 100%;
   height: 450px;
   width: 100%;
-
+  position: relative;
   z-index: 1;
 }
 #banner .content h1 {
@@ -88,7 +85,25 @@ h2 {
   margin: 0;
   padding: 20px 0;
   color: #212121;
-
+}
+h3 {
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: #212121;
+}
+.portfolio {
+  font-size: 20px;
+  background: #FF5722;
+  border: 1px solid #FF5722;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  margin: 0px;
+  padding: 5px 10px;
+  text-decoration: none;
+  box-shadow: 0px 0px 10px black;
 }
 #main {
   margin: 0 auto;
