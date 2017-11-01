@@ -2,14 +2,6 @@
  margin: 0;
  padding: 0;
 }
-.dark-primary-color    { background: #E64A19; }
-.default-primary-color { background: #FF5722; }
-.light-primary-color   { background: #FFCCBC; }
-.text-primary-color    { color: #FFFFFF; }
-.accent-color          { background: #03A9F4; }
-.primary-text-color    { color: #212121; }
-.secondary-text-color  { color: #757575; }
-.divider-color         { border-color: #BDBDBD; }
 body {
   max-width: 100%;
   min-width: 320px;
@@ -25,6 +17,8 @@ header {
   position: absolute;
   width: 100%;
   z-index: 2;
+  border-bottom: 1px solid hsla(36, 100%, 50%, 0.1);
+
 }
 .top-bar {
   max-width: 50%;
@@ -41,7 +35,7 @@ header {
   z-index: 2;
 }
 .top-menu a {
-  background-color: #FF5722;;
+  background-color: hsla(36, 100%, 50%, 0.9);
   border-radius: 3px;
   color: white;
   margin: 10px;
@@ -51,6 +45,7 @@ header {
 
 }
 .top-menu a.menu:hover {
+  background-color: hsla(36, 100%, 50%, 1);
   box-shadow: 0px 0px 2px black;
   color: white;
   padding: 13px;
@@ -82,7 +77,9 @@ header {
   width: 500px;
   margin: 0 auto;
   padding: 20px 30px;
+  box-shadow: 0px 0px 10px black;
 }
+
 h1 {
   font-size: 60px;
   text-align: center;
@@ -112,6 +109,10 @@ h3 {
   width: 50%;
   height:auto;
   overflow: inherit;
+  border: 1px solid hsla(36, 100%, 50%, 0.1);
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 p, li {
   font-size: 16px;
@@ -132,8 +133,9 @@ img {
 }
 .share {
   border-radius: 5px;
-  border: 1px solid LightGrey;
-  padding: 40px 0px;
+  border: 1px solid hsla(36, 100%, 50%, 0.1);;
+  border-radius: 5px;
+  padding: 40px;
   position: relative;
   text-align: center;
   width: 50%;
@@ -142,8 +144,7 @@ img {
 
 .share a {
   font-size: 15px;
-  background: #FF5722;
-  border: 1px solid #FF5722;
+  background: hsla(36, 100%, 50%, 0.9);
   border-radius: 3px;
   color: white;
   display: inline-block;
@@ -153,6 +154,7 @@ img {
   box-shadow: 0px 0px 10px black;
 }
 .share a:hover {
+  background: hsla(36, 100%, 50%, 1);
   box-shadow: 0px 0px 2px black;
   margin: 11px;
   padding: 13px;
